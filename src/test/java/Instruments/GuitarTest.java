@@ -44,4 +44,14 @@ public class GuitarTest {
     public void hasNumStrings() {
         assertEquals(6, guitar.getNumStrings());
     }
+
+    @Test
+    public void calculateMarkup() {
+        assertEquals(200, guitar.calculateMarkup(), 0.01);
+    }
+
+    @Test
+    public void play() {
+        assertEquals("Twang", guitar.play());
+    }
 }

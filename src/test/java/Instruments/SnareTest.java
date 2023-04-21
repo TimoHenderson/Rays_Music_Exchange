@@ -44,4 +44,14 @@ public class SnareTest {
     public void hasNumLugs() {
         assertEquals(6, snare.getNumLugs());
     }
+
+    @Test
+    public void calculateMarkup() {
+        assertEquals(200, snare.calculateMarkup(), 0.01);
+    }
+
+    @Test
+    public void play() {
+        assertEquals("BANG", snare.play());
+    }
 }
