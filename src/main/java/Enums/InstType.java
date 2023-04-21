@@ -4,5 +4,6 @@ public enum InstType {
     BRASS,
     WOODWIND,
     STRING,
-    PERCUSSION
+    PERCUSSION,
+    GENERAL
 }
